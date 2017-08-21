@@ -1,0 +1,17 @@
+{
+    "name": "jm/php_study",
+    "description": "my phpstudy",
+    "type": "project",
+    "authors": [
+        {
+            "name": "jmjack",
+            "email": "a1796932482@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "DesignPattern\\":"designpattern/"
+        }
+    }
+}

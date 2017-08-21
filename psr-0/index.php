@@ -11,6 +11,5 @@ define('ROOT', __DIR__);
 include ROOT.'/Lib/Loader.php';
 spl_autoload_register('\\Lib\\Loader::autoload');
 
-
 Lib\Object::test();
 App\Controller\Home\Index::test();
