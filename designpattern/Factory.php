@@ -5,9 +5,14 @@ use DesignPattern\Lib\Database;
 
 class Factory
 {
-    static function createDB()
+
+    /**
+     * 实例化数据库类统一在该方法实现 解耦 代码复用
+     *
+     */
+    public static function createDB()
     {
-        $db = new Database();
+        $db = Database::getInstance();
         return $db;
     }
 

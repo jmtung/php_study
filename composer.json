@@ -11,7 +11,8 @@
     "require": {},
     "autoload":{
         "psr-4":{
-            "DesignPattern\\":"designpattern/"
+            "DesignPattern\\":"designpattern/",
+            "Syntax\\":"syntax/"
         }
     }
 }
