@@ -7,7 +7,7 @@ class Database{
      * 长驻内存的静态成员db
      *
      */
-    protected static $db;
+    private static $db;
 
     /**
      * 防止直接new一个Database对象
@@ -28,7 +28,7 @@ class Database{
      * 静态方法实现单一入口的单例模式
      *
      */
-    static function getInstance(){
+    static public function getInstance(){
 //        静态成员存在直接返回 反之实例化一个db类
         if (self::$db){
             return self::$db;
